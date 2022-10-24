@@ -13,7 +13,9 @@
   font-weight: 700;
   position: relative;
 }
-
+h1::after {
+  content: '|';
+}
 .introducao h1::before {
   content: "";
   display: block;
