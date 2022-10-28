@@ -1,6 +1,6 @@
 
 
-function tapWeiter(element) {
+function tapWriter(element) {
   const textArray = element.innerHTML.split('');
   element.innerHTML = '';
   textArray.forEach((letter, index) => {
@@ -10,4 +10,4 @@ function tapWeiter(element) {
 
 
 const title = document.querySelector('h1');
-tapWeiter(title);
+tapWriter(title);
