@@ -15,6 +15,8 @@ tapWriter(title);
 tapInit();
 
 
+
+function initBehavior() {
 const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
 
@@ -34,3 +36,6 @@ function scrollIntoSection(e) {
 linksInternos.forEach((link) => {
   link.addEventListener('click', scrollIntoSection);
 })
+}
+
+initBehavior();
