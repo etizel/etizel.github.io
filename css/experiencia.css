@@ -102,3 +102,9 @@
     grid-template-columns: 1fr;
   }
 }
+.js .js-scroll {
+  opacity: 0;
+}
+.js .js-scroll.active {
+  opacity: 1;
+}

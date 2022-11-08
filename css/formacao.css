@@ -117,3 +117,10 @@
     margin-left: 10px;
   }
 }
+
+.js .js-scroll {
+  opacity: 0;
+}
+.js .js-scroll.active {
+  opacity: 1;
+}
