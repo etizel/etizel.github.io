@@ -49,19 +49,27 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  color: #fff;
+}
+.faculdade:hover {
+  background-color: #eb4;
+  transition: 0.3s ease;
+  color: #131313;
 }
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #fff;
   margin-bottom: 10px;
 }
+
 .faculdade-curso {
   flex: 1;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
+  color: #fff;
 }
 .faculdade-curso::before {
   content: "";

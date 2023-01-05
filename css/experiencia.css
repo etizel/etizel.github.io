@@ -15,7 +15,7 @@
   line-height: 1.33;
   margin-bottom: 60px;
   max-width: 40ch;
-  color: #525252;
+  color: #fff;
 }
 .experiencia-texto strong {
   color: #141414;
@@ -28,6 +28,10 @@
   margin-bottom: 20px;
   border-radius: 6px;
   position: relative;
+}
+.empresa:hover {
+  background-color: #40B6E8;
+  transition: 0.3s ease;
 }
 .empresa::before {
   content: "";
