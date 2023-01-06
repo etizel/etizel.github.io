@@ -64,6 +64,7 @@
   transition: .3s ease;
 }
 .faculdade-tipo:hover {
+  transition: .3s ease;
   color: #131313;
 }
 .faculdade-curso {
