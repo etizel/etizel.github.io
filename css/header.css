@@ -37,6 +37,12 @@
     gap: 40px;
     padding: 20px;
   }
+  img {
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+  }
   .header a {
     background: #f5f5f5;
     border-radius: 4px;
