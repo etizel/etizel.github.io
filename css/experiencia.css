@@ -10,12 +10,15 @@
 .experiencia .subtitulo {
   color: #e0e0e0;
 }
-.experiencia-texto {
+ .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
+  margin: 0px 0px 100px;
   margin-bottom: 60px;
   max-width: 40ch;
   color: #fff;
+  text-align: center;
+
 }
 .experiencia-texto strong {
   color: #141414;
